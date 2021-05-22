@@ -1,0 +1,24 @@
+{
+  "name": "solace-webstream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "exports-loader": "^3.0.0",
+    "solclientjs": "^10.7.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
